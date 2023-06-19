@@ -1,7 +1,7 @@
 # Final-Project-Statistical-Modelling-with-Python
 
 ## Project/Goals
-(I had querried the API and examined the data returned. Then I had chosen a city covered by the CityBikes API and then had retrieve all available bike stations in that city. For each bike station, I had used the API to call the latitude, longitude and number of bikes + I had Parse the JSON object into a Pandas dataframe.)
+(I had querried the API and examined the data returned. Then I had chosen a city covered by the CityBikes API and then had retrieved all available bike stations in that city. For each bike station, I had used the API to call the latitude, longitude and number of bikes + I had Parse the JSON object into a Pandas dataframe.)
 
 ## Process
 ### (your step 1)

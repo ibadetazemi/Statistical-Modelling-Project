@@ -16,4 +16,4 @@
 (discuss challenges you faced in the project)
 
 ## Future Goals
-(what would you do if you had more time?)
+(If I had more time I would spend more time on going more in-depth with cleaning data.)

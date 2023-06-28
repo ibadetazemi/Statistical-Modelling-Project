@@ -1,1 +1,7 @@
-
+CityBikes
+Send a request to CityBikes for the city of your choice.
+ 
+Parse through the response to get the details you want for the bike stations in that city (latitude, longitude, number of bikes).
+ 
+Put your parsed results into a DataFrame.
+ 

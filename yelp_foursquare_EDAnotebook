@@ -1,1 +1,18 @@
-
+# imports
+Foursquare
+Send a request to Foursquare with a small radius (1000m) for all the bike stations in your city of choice.
+ 
+Parse through the response to get the POI (such as restaurants, bars, etc) details you want (ratings, name, location, etc)
+ 
+Put your parsed results into a DataFrame
+ 
+Yelp
+Send a request to Yelp with a small radius (1000m) for all the bike stations in your city of choice.
+ 
+Parse through the response to get the POI (such as restaurants, bars, etc) details you want (ratings, name, location, etc)
+ 
+Put your parsed results into a DataFrame
+Comparing Results
+Which API provided you with more complete data? Provide an explanation.
+Get the top 10 restaurants according to their rating
+ 

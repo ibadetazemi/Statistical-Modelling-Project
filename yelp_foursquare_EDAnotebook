@@ -1,4 +1,4 @@
-# imports
+## imports
 Foursquare
 Send a request to Foursquare with a small radius (1000m) for all the bike stations in your city of choice.
  

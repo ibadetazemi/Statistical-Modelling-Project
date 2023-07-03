@@ -6,11 +6,7 @@ https://citybikes.com/developers/home
     
 ## I had sent a request to CitiBikes using the codes below and I chose New York City as my city
 
-## On terminal creating env variable
-export CITYBIKES_API_KEY='YOUR_API_KEY'
-echo $CITYBIKES_API_KEY
-
-## on terminal/jupyter only entering api to get info for networks
+## On terminal/jupyter only entering API to get info for networks
 curl http://api.citybik.es/v2/networks
     
 ## Now on Jupyter Lab asking CityBikes for the city of my choice, I chose New York City. 
@@ -27,7 +23,21 @@ response.text
  
 Parse through the response to get the details you want for the bike stations in that city (latitude, longitude, number of bikes):
 
-Parse through the response to get the details you want for the bike stations in that city (latitude, longitude, number of bikes).
+## Now on Jupyter Lab asking CityBikes for the number of of bikes in New York City. 
+import requests                                                                                
+                                                                                
+request_url = 'http://api.citybik.es/v2/networks/coast-bike-share'
+
+response = requests.get(request_url)
+response.text
+
+## Results from request:
+
+"name":"Empire Blvd & New York Ave","timestamp":"2023-07-03T01:00:52.406000Z"},
+{"empty_slots":14,"extra":{"ebikes":2,"has_ebikes":true,"last_updated":1688346021,
+"payment":["key","creditcard"],"payment-terminal":true,"renting":1,"returning":1,
+"slots":19,"uid":"d08be53f-9691-4d6f-81f3-7d052abb7dd6"},
+                                                                                                                                            
 
 ## (latitude, longitude, radius)
 ## REQUEST for latitude using Yelp API

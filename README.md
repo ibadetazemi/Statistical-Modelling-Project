@@ -12,6 +12,16 @@ For this part, we will work with an API that you have not seen before: CityBikes
 
 Citybikes is an API that provides bike sharing data for apps, research and projects. CityBikes supports more than 400 cities and the Citybikes API is an interesting dataset for building bike-sharing transportation projects.
 
+ {'company': ['Social Bicycles Inc.'],
+   'gbfs_href': 'http://sobilongbeach.com/opendata/gbfs.json',
+   'href': '/v2/networks/sobi-long-beach',
+   'id': 'sobi-long-beach',
+   'location': {'city': 'Long Beach, NY',
+    'country': 'US',
+    'latitude': 40.5833058203002,
+    'longitude': -73.6482682794673},
+   'name': 'SoBi'},
+
 Your tasks are as follows:
 
 Explore the structure of the API, query the API and understand the data returned. Choose a city covered by the CityBikes API and retrieve all available bike stations in that city. For each bike station, use the API to call the latitude, longitude and number of bikes. Parse the JSON object into a Pandas dataframe. Complete the city_bikes.ipynb notebook to demonstrate how you executed the tasks above.

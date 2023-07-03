@@ -31,7 +31,7 @@ response.text
  "citi-bike-nyc","location":{"city":"New York, NY","country":"US","latitude":40.7143528,"longitude":
   -74.00597309999999},"name":"Citi Bike"}
 
-Parse through the response to get the details you want for the bike stations in that city (latitude, longitude, number of bikes):
+PARSE THROUGH THE RESPONSE TO GET THE DETAILS YOU WANT FOR THE BIKE STATIONS IN THAT CITY (LONGITUDE, LATITUDE + NUMBER OF BIKES:)
 
 ## Now on Jupyter Lab asking CityBikes for the number of of bikes in New York City. 
 import requests                                                                                

@@ -1,10 +1,9 @@
-CityBikes
-Send a request to CityBikes for the city of your choice.
+CITYBIKES
+SEND A REQUEST TO CITY BIKES FOR THE CITY OF YOUR CHOICE:
 
 # I had created a account and had generated an API Key + had created a (Client Id & Client Secret)
-https://foursquare.com/developers/home
-# I had created a Postman account and had entered a repo url and created a request
-https://postman.com
+https://citybikes.com/developers/home
+
     
     ## I had sent a request to CitiBikes using the codes below and I chose New York City
     ## On terminal creating env variable

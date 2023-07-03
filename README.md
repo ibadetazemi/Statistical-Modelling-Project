@@ -53,4 +53,4 @@ Challenges
 
 Future Goals
 
-(If I had more time I would spend more time on going more in-depth with cleaning data.)
+(If I had more time I would spend more time on going more in-depth with cleaning data and finding more POI.)

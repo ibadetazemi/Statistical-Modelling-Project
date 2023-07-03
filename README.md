@@ -12,15 +12,18 @@ For this part, we will work with an API that you have not seen before: CityBikes
 
 Citybikes is an API that provides bike sharing data for apps, research and projects. CityBikes supports more than 400 cities and the Citybikes API is an interesting dataset for building bike-sharing transportation projects.
 
- {'company': ['Social Bicycles Inc.'],
-   'gbfs_href': 'http://sobilongbeach.com/opendata/gbfs.json',
-   'href': '/v2/networks/sobi-long-beach',
-   'id': 'sobi-long-beach',
-   'location': {'city': 'Long Beach, NY',
+{'company': ['NYC Bike Share, LLC',
+    'Motivate International, Inc.',
+    'PBSC Urban Solutions'],
+   'ebikes': True,
+   'gbfs_href': 'https://gbfs.citibikenyc.com/gbfs/gbfs.json',
+   'href': '/v2/networks/citi-bike-nyc',
+   'id': 'citi-bike-nyc',
+   'location': {'city': 'New York, NY',
     'country': 'US',
-    'latitude': 40.5833058203002,
-    'longitude': -73.6482682794673},
-   'name': 'SoBi'},
+    'latitude': 40.7143528,
+    'longitude': -74.00597309999999},
+   'name': 'Citi Bike'},
 
 Your tasks are as follows:
 

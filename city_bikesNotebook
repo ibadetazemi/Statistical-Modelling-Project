@@ -1,15 +1,13 @@
 CityBikes
 Send a request to CityBikes for the city of your choice:
 
-# I had created a Foursquare account and had generated an API Key + had created a (Client Id & Client Secret)
-https://foursquare.com/developers/home
-# I had created a Postman account and had entered a repo url and created a request
-https://postman.com
+# I had generated a public CityBikes API Key 
+https://citybikes.com/developers/home
     
-    ## I had sent a request to CitiBikes using the codes below and I chose New York City
-    ## On terminal creating env variable
+    ## I had sent a request to CitiBikes using the codes below and I chose New York City as my city
+
+## On terminal creating env variable
 export CITYBIKES_API_KEY='YOUR_API_KEY'
-    
 echo $CITYBIKES_API_KEY
 
 ## on terminal/jupyter only entering api to get info for networks

@@ -1,20 +1,22 @@
 CITYBIKES
 SEND A REQUEST TO CITY BIKES FOR THE CITY OF YOUR CHOICE:
 
-# I had created a account and had generated an API Key + had created a (Client Id & Client Secret)
+# I had viewed CityBikes website for API
 https://citybikes.com/developers/home
 
     
-    ## I had sent a request to CitiBikes using the codes below and I chose New York City
-    ## On terminal creating env variable
-export CITYBIKES_API_KEY='YOUR_API_KEY'
-    
-echo $CITYBIKES_API_KEY
+## I had sent a request to CitiBikes using the codes below and I chose New York City
+## on terminal/jupyter only entering API to get info for networks
 
-## on terminal/jupyter only entering api to get info for networks
-curl http://api.citybik.es/v2/networks
+import requests
+
+request_url = 'http://api.citybik.es/v2/networks'
+
+response = requests.get(request_url)
+response.text
     
 ## Now on Jupyter Lab asking CityBikes for the city of my choice, I chose New York City. 
+
 import requests
 
 request_url = 'http://api.citybik.es/v2/networks/citi-bike-nyc'
@@ -28,6 +30,7 @@ response.text
  "gbfs_href":"https://gbfs.citibikenyc.com/gbfs/gbfs.json","href":"/v2/networks/citi-bike-nyc","id":
  "citi-bike-nyc","location":{"city":"New York, NY","country":"US","latitude":40.7143528,"longitude":
   -74.00597309999999},"name":"Citi Bike"}
+
 Parse through the response to get the details you want for the bike stations in that city (latitude, longitude, number of bikes):
 
 ## Now on Jupyter Lab asking CityBikes for the number of of bikes in New York City. 

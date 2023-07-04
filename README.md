@@ -14,19 +14,6 @@ Tasks:
 2.) For each bike station, use the API to call the latitude, longitude and number of bikes. Parse the JSON object into a Pandas dataframe. 
 3.) Complete the city_bikes.ipynb notebook to demonstrate how you executed the tasks above.
 
-{'company': ['NYC Bike Share, LLC',
-    'Motivate International, Inc.',
-    'PBSC Urban Solutions'],
-   'ebikes': True,
-   'gbfs_href': 'https://gbfs.citibikenyc.com/gbfs/gbfs.json',
-   'href': '/v2/networks/citi-bike-nyc',
-   'id': 'citi-bike-nyc',
-   'location': {'city': 'New York, NY',
-    'country': 'US',
-    'latitude': 40.7143528,
-    'longitude': -74.00597309999999},
-   'name': 'Citi Bike'}
-
 Part 2: Connecting to Foursquare and Yelp APIs
 
 Tasks:

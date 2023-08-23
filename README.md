@@ -49,7 +49,7 @@ Results
 
 Challenges
 
-(Some challenges that I faced was learning how to use API's as well as time was a challenge.)
+(Some challenges that I faced was learning how to use API's, building a regression model as well as time was a challenge.)
 
 Future Goals
 

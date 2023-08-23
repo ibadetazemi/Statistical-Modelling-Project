@@ -49,7 +49,7 @@ Results
 
 Challenges
 
-(Some challenges that I faced was that the Jupyter Notebook kept glitching and had to re-start kernel numerous times another issue is that creating an environment was glitching as well.)
+(Some challenges that I faced was learning how to use API's as well as time was a challenge.)
 
 Future Goals
 
